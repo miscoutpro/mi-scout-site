@@ -242,7 +242,7 @@ function App() {
           </div>
           <Card>
             <h3>Request a sample report</h3>
-            <form action="https://formspree.io/f/XXXXXXX" method="POST" className="form">
+            <form action="https://formspree.io/f/xojrqqad" method="POST" className="form">
               <input name="name" placeholder="Name" required />
               <input name="club" placeholder="Club / Company" />
               <input name="email" type="email" placeholder="Email" required />
