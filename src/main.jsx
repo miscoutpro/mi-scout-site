@@ -58,7 +58,7 @@ const process = [
 function App() {
   return (
     <main>
-      <a className="floating-whatsapp" href="https://wa.me/90XXXXXXXXXX" target="_blank" rel="noreferrer">
+      <a className="floating-whatsapp" href="https://wa.me/905363728898" target="_blank" rel="noreferrer">
         <MessageCircle size={18} /> WhatsApp
       </a>
 
@@ -236,7 +236,7 @@ function App() {
             <h2>Start building your competitive edge.</h2>
             <p className="muted">Request a sample report and see how MI Scout can support your club’s recruitment strategy.</p>
             <div className="actions">
-              <a href="mailto:info@miscout.com" className="btn btn-solid"><Mail size={18} /> Email: info@miscout.com</a>
+              <a href="mailto:miscout@gmail.com" className="btn btn-solid"><Mail size={18} /> Email: miscout@gmail.com</a>
               <a href="https://wa.me/90XXXXXXXXXX" target="_blank" className="btn btn-outline"><MessageCircle size={18} /> WhatsApp</a>
             </div>
           </div>
