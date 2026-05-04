@@ -74,12 +74,12 @@ function App() {
 
       <section className="hero">
         <div className="hero-bg" />
-        <img src="/mi-scout-logo.png" alt="MI Scout watermark" className="watermark" />
+        <img src="/mi-logo.png" alt="MI Scout watermark" className="watermark" />
 
         <div className="container">
           <nav className="nav">
             <div className="brand">
-              <img src="/mi-scout-logo.png" alt="MI Scout" />
+              <img src="/mi-logo.png" alt="MI Scout" />
               <span>ELITE RECRUITMENT INTELLIGENCE</span>
             </div>
 
@@ -404,7 +404,7 @@ function App() {
       </section>
 
       <section id="contact" className="contact">
-        <div className="logo-center"><img src="/mi-scout-logo.png" alt="MI Scout" /></div>
+        <div className="logo-center"><img src="/mi-logo.png" alt="MI Scout" /></div>
 
         <div className="container two-col">
           <div>
