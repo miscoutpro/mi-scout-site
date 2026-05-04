@@ -7,7 +7,11 @@ import {
   MessageCircle, ExternalLink, Star, MapPin, Calendar, Activity
 } from 'lucide-react'
 import './styles.css'
-
+const trackEvent = (eventName) => {
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", eventName);
+  }
+};
 const Button = ({ children, variant = 'solid', className = '', ...props }) => (
   <button className={`btn ${variant === 'outline' ? 'btn-outline' : 'btn-solid'} ${className}`} {...props}>{children}</button>
 )
@@ -58,7 +62,7 @@ const process = [
 function App() {
   return (
     <main>
-      <a className="floating-whatsapp" href="https://wa.me/905363728898" target="_blank" rel="noreferrer">
+      <a className="floating-whatsapp onClick={() => trackEvent("whatsapp_click")}" href="https://wa.me/905363728898" target="_blank" rel="noreferrer">
         <MessageCircle size={18} /> WhatsApp
       </a>
 
@@ -86,7 +90,7 @@ function App() {
               <h1>Discover talent before the market does.</h1>
               <p className="hero-text">MI Scout helps football clubs identify undervalued players across Europe before they become expensive, crowded or obvious transfer targets.</p>
               <div className="actions">
-                <a href="/sample-report.pdf" download className="btn btn-solid">Download Sample Report <Download size={18} /></a>
+                <a href="/sample-report.pdf" download onClick={() => trackEvent("pdf_download")} className="btn btn-solid">Download size={18} /></a>
                 <a href="#contact" className="btn btn-outline">Request Tailored Shortlist <ArrowRight size={18} /></a>
               </div>
               <div className="tags">
@@ -141,7 +145,9 @@ function App() {
             <h2>A real scout report experience, built for decision makers.</h2>
             <p className="muted">Each delivery includes a structured database, individual player reports, market notes and a final priority ranking.</p>
             <div className="check-list">{proofPoints.map(p => <div key={p}><CheckCircle2 /> {p}</div>)}</div>
-            <div className="actions"><a className="btn btn-solid" href="/sample-report.pdf" download><Download size={18} /> Download Sample PDF</a><a className="btn btn-outline" href="/sample-report.pdf" target="_blank"><ExternalLink size={18} /> View Report Preview</a></div>
+            <div className="actions"><a className="btn btn-solid" href="/sample-report.pdf" download><Download size={18} /> Download Sample PDF</a><a className="btn btn-outline" 
+        href="/sample-report.pdf" target="_blank" 
+        onClick={() => trackEvent("pdf_preview_click")} >"><ExternalLink size={18} /> View Report Preview</a></div>
           </div>
           <Card>
             <div className="preview-head"><div><p>PDF Preview</p><h3>Player Report Page</h3></div><FileText className="green-icon" /></div>
