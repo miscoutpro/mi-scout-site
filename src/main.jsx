@@ -48,7 +48,7 @@ const playerCards = [
 
 const packages = [
   { name: 'Starter Intelligence', price: '€499', period: 'one-off report', note: 'Best for first test mission', features: ['20-player shortlist', '5 full scout reports', 'Position-based analysis', 'PDF + Excel delivery', 'Delivery in 7–10 days'] },
-  { name: 'Elite Monthly Intelligence', price: '€1,499', period: 'per month', note: 'Recommended for clubs', featured: true, features: ['100-player hidden pool', '20 full scout reports', 'Risk & upside analysis', 'Transfer priority ranking', 'Executive presentation design', 'Monthly strategy call'] },
+  { name: 'Elite Monthly Intelligence', price: '€1,499', period: 'per month', note: 'Recommended for clubs', featured: true, features: ['Designed to replace internal scouting time and reduce recruitment noise', '100-player hidden pool', '20 full scout reports', 'Risk & upside analysis', 'Transfer priority ranking', 'Executive presentation design', 'Monthly strategy call'] },
   { name: 'Custom Recruitment Mission', price: 'From €2,500', period: 'project-based', note: 'For specific club needs', features: ['Specific position search', 'Country / league focus', 'Budget filter', 'Final transfer shortlist', 'Club-ready presentation', 'Confidential project delivery'] },
 ]
 
@@ -306,7 +306,7 @@ function App() {
             <span className="eyebrow">Authority</span>
             <h2>Why clubs trust MI Scout</h2>
             <p className="muted">
-              MI Scout is not content, media or fan-based analysis. It is a focused recruitment intelligence service built for real club decision making.
+              MI Scout is not content, media or fan-based analysis. It is a focused recruitment intelligence service built for real club decision making. Independent scouting model → no agency bias, no internal pressure.
             </p>
 
             <div className="check-list">
@@ -335,7 +335,9 @@ function App() {
         <div className="section-head">
           <span>Case Study</span>
           <h2>From longlists to signable targets</h2>
-          <p>Example of how MI Scout converts broad scouting needs into clear, actionable recruitment decisions.Want a shortlist like this for your club?</p>
+          <p>Example of how MI Scout converts broad scouting needs into clear, actionable recruitment decisions.
+            Typical output for clubs operating in €1M–€5M transfer range.
+            Want a shortlist like this for your club?</p>
         </div>
 
         <div className="case-grid">
@@ -418,7 +420,8 @@ function App() {
             <span className="eyebrow">Contact</span>
             <h2>Start building your competitive edge.</h2>
             <p className="muted">
-              Request a sample report and see how MI Scout can support your club’s recruitment strategy.Limited number of clubs accepted each month.
+              Request a sample report and see how MI Scout can support your club’s recruitment strategy.
+              Limited number of clubs accepted each month.
             </p>
 
             <div className="actions">
