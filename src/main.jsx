@@ -107,11 +107,11 @@ function App() {
                   onClick={() => trackEvent("pdf_download")}
                   className="btn btn-solid"
                 >
-                  Download Sample Report <Download size={18} />
+                  Get Sample Report <Download size={18} />
                 </a>
 
                 <a href="#contact" className="btn btn-outline">
-                  Request Tailored Shortlist <ArrowRight size={18} />
+                  Request Shortlist <ArrowRight size={18} />
                 </a>
               </div>
 
@@ -209,7 +209,7 @@ function App() {
                 download
                 onClick={() => trackEvent("pdf_download")}
               >
-                <Download size={18} /> Download Sample PDF
+                <Download size={18} /> Get Sample Report
               </a>
 
               <a
