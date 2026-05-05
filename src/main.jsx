@@ -95,9 +95,11 @@ function App() {
           <div className="hero-grid">
             <motion.div initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65 }}>
               <div className="pill"><ShieldCheck size={16} /> For clubs seeking recruitment advantage</div>
-              <h1>Discover talent before the market does.</h1>
+              <h1>Identify undervalued players before their price explodes</h1>
               <p className="hero-text">
-                MI Scout helps football clubs identify undervalued players across Europe before they become expensive, crowded or obvious transfer targets.
+                MI Scout helps clubs identify undervalued players across Europe before they become expensive, competitive or out of reach.
+                Built for clubs seeking early-market advantage.
+                The best transfers are made months before they become obvious.
               </p>
 
               <div className="actions">
@@ -111,7 +113,7 @@ function App() {
                 </a>
 
                 <a href="#contact" className="btn btn-outline">
-                  Request Shortlist <ArrowRight size={18} />
+                  Request 3-Player Shortlist <ArrowRight size={18} />
                 </a>
               </div>
 
@@ -209,7 +211,7 @@ function App() {
                 download
                 onClick={() => trackEvent("pdf_download")}
               >
-                <Download size={18} /> Get Sample Report
+                <Download size={18} /> See How It Works
               </a>
 
               <a
@@ -333,7 +335,7 @@ function App() {
         <div className="section-head">
           <span>Case Study</span>
           <h2>From longlists to signable targets</h2>
-          <p>Example of how MI Scout converts broad scouting needs into clear, actionable recruitment decisions.</p>
+          <p>Example of how MI Scout converts broad scouting needs into clear, actionable recruitment decisions.Want a shortlist like this for your club?</p>
         </div>
 
         <div className="case-grid">
@@ -367,6 +369,11 @@ function App() {
         </div>
 
         <p className="micro">Based on real scouting workflow simulations and market analysis.</p>
+        <div className="actions" style={{ marginTop: '24px' }}>
+  <a href="#contact" className="btn btn-solid">
+    Request 3-Player Shortlist <ArrowRight size={18} />
+  </a>
+</div>
       </section>
 
       <section id="packages" className="section container">
@@ -411,7 +418,7 @@ function App() {
             <span className="eyebrow">Contact</span>
             <h2>Start building your competitive edge.</h2>
             <p className="muted">
-              Request a sample report and see how MI Scout can support your club’s recruitment strategy.
+              Request a sample report and see how MI Scout can support your club’s recruitment strategy.Limited number of clubs accepted each month.
             </p>
 
             <div className="actions">
