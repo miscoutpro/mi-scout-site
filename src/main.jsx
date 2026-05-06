@@ -389,6 +389,11 @@ function App() {
         <div className="grid3">
           {packages.map(pkg => (
             <Card key={pkg.name} className={pkg.featured ? 'featured' : ''}>
+              {pkg.featured && (
+    <div className="popular-badge">
+      MOST POPULAR
+    </div>
+  )}
               <div className="pkg-head">
                 <h3>{pkg.name}</h3>
                 {pkg.featured ? <Euro /> : <Lock />}
