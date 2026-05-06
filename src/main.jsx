@@ -481,7 +481,7 @@ function App() {
               <textarea name="message" placeholder="Tell us your recruitment need"></textarea>
 
               <button type="submit" className="btn btn-solid">
-                Send Request <ArrowRight size={18} />
+                Request Intelligence <ArrowRight size={18} />
               </button>
             </form>
           </Card>
