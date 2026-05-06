@@ -126,3 +126,30 @@
   border: 1px solid rgba(212,166,80,0.4);
   box-shadow: 0 0 60px rgba(212,166,80,0.25);
 }
+.featured .btn-solid {
+  background: linear-gradient(
+    135deg,
+    #f3d58b 0%,
+    #d4a650 45%,
+    #8a6424 100%
+  );
+
+  color: #050505;
+  font-weight: 700;
+
+  box-shadow:
+    0 0 18px rgba(212,166,80,0.35),
+    0 0 45px rgba(212,166,80,0.18);
+
+  transition: all 0.28s ease;
+}
+
+.featured .btn-solid:hover {
+  transform: translateY(-2px) scale(1.02);
+
+  box-shadow:
+    0 0 24px rgba(212,166,80,0.45),
+    0 0 60px rgba(212,166,80,0.24);
+
+  filter: brightness(1.08);
+}
