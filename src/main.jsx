@@ -66,12 +66,12 @@ function App() {
     <main>
       <a
         className="floating-whatsapp"
-        href="https://wa.me/905363728898"
+        href="https://wa.me/905363728898?text=Hello%2C%20I%20reviewed%20MI%20Scout.%20Can%20you%20send%20a%20sample%20report%3F"
         target="_blank"
         rel="noreferrer"
         onClick={() => trackEvent("whatsapp_click")}
       >
-        <MessageCircle size={18} /> WhatsApp
+        <MessageCircle size={20} /> Quick Contact
       </a>
 
       <section className="hero">
@@ -449,13 +449,13 @@ function App() {
               </a>
 
               <a
-                href="https://wa.me/905363728898"
+                href="https://wa.me/905363728898?text=Hello%2C%20I%20reviewed%20MI%20Scout.%20Can%20you%20send%20a%20sample%20report%3F"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline"
                 onClick={() => trackEvent("whatsapp_click")}
               >
-                <MessageCircle size={18} /> WhatsApp
+                <MessageCircle size={20} /> Contact MI Scout
               </a>
             </div>
           </div>
