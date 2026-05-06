@@ -384,6 +384,8 @@ function App() {
         <div className="section-head center">
           <span>Pricing</span>
           <h2>Simple packages for serious recruitment.</h2>
+          <p className="muted">
+  Built for clubs seeking long-term recruitment advantage.</p>
         </div>
 
         <div className="grid3">
