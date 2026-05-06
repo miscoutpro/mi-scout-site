@@ -211,3 +211,10 @@
 
   pointer-events: none;
 }
+.urgency-line {
+  margin-top: 18px;
+  color: rgba(212,166,80,0.92);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
