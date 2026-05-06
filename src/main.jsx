@@ -47,11 +47,11 @@ const playerCards = [
 ]
 
 const packages = [
-  { name: 'Starter Intelligence', price: '€499', period: 'one-off report', note: 'Best for first test mission', comparison: 'Ideal for first collaboration.', features: ['20-player shortlist', '5 full scout reports', 'Position-based analysis', 'PDF + Excel delivery', 'Delivery in 7–10 days'] },
+  { name: 'Starter Intelligence', price: '€499', period: 'one-off report', note: 'Best for first test mission.', comparison: 'Ideal for first collaboration.', features: ['20-player shortlist', '5 full scout reports', 'Position-based analysis', 'PDF + Excel delivery', 'Delivery in 7–10 days'] },
   { name: 'Elite Monthly Intelligence', price: '€1,499', period: 'per month', note: 'Recommended for clubs. Designed to replace internal scouting time and reduce recruitment noise.',
   roi: 'One successful transfer insight can cover the entire cost.',
   comparison: 'Lower than the cost of a single scouting trip.', featured: true, features: ['100-player hidden pool', '20 full scout reports', 'Risk & upside analysis', 'Transfer priority ranking', 'Executive presentation design', 'Monthly strategy call'] },
-  { name: 'Custom Recruitment Mission', price: 'From €2,500', period: 'project-based', note: 'For specific club needs', features: ['Specific position search', 'Country / league focus', 'Budget filter', 'Final transfer shortlist', 'Club-ready presentation', 'Confidential project delivery'] },
+  { name: 'Custom Recruitment Mission', price: 'From €2,500', period: 'project-based', note: 'For specific club needs.', features: ['Specific position search', 'Country / league focus', 'Budget filter', 'Final transfer shortlist', 'Club-ready presentation', 'Confidential project delivery'] },
 ]
 
 const process = [
