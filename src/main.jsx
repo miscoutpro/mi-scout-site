@@ -97,7 +97,7 @@ function App() {
           <div className="hero-grid">
             <motion.div initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65 }}>
               <div className="pill"><ShieldCheck size={16} /> For clubs seeking recruitment advantage</div>
-              <h1>Identify undervalued players before their price explodes</h1>
+              <h1>Recruit smarter before the market catches up</h1>
               <p className="hero-text">
                 MI Scout helps clubs identify undervalued players across Europe before they become expensive, competitive or out of reach.
                 Built for clubs seeking early-market advantage.
