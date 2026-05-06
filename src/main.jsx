@@ -404,6 +404,11 @@ function App() {
                   <div key={f}><CheckCircle2 />{f}</div>
                 ))}
               </div>
+              <div className="actions" style={{ marginTop: '20px' }}>
+  <a href="#contact" className="btn btn-solid">
+    {pkg.featured ? 'Start Monthly Intelligence' : 'Request This Package'}
+  </a>
+</div>
             </Card>
           ))}
         </div>
