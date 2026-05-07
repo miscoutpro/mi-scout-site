@@ -269,3 +269,39 @@
   font-weight: 700;
   letter-spacing: 0.2px;
 }
+.proof-table {
+  margin-top: 42px;
+  border: 1px solid rgba(212,166,80,0.16);
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.035);
+}
+
+.proof-row {
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr 1.2fr 1fr;
+  gap: 16px;
+  padding: 18px 22px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.75);
+  font-size: 14px;
+}
+
+.proof-row:first-child {
+  border-top: none;
+}
+
+.proof-head {
+  background: rgba(212,166,80,0.1);
+  color: #d4a650;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .proof-row {
+    grid-template-columns: 1fr;
+  }
+}
