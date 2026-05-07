@@ -195,6 +195,75 @@ function App() {
         <div className="two-col">
           <div>
             <span className="eyebrow">Sample Output</span>
+            <section id="proof" className="section container">
+  <div className="section-head">
+    <span>Real Intelligence Preview</span>
+    <h2>What clubs receive from MI Scout</h2>
+    <p>
+      A practical preview of the deliverables: player database, individual scout reports and priority shortlist.
+    </p>
+  </div>
+
+  <div className="grid3">
+    <Card>
+      <FileText className="green-icon" />
+      <h3>PDF Scout Report</h3>
+      <p>
+        Executive-level player report with strengths, risks, tactical fit, market timing and final recommendation.
+      </p>
+    </Card>
+
+    <Card>
+      <BarChart3 className="green-icon" />
+      <h3>Excel Player Database</h3>
+      <p>
+        Structured database including age, position, league, market value, role fit, upside and priority tier.
+      </p>
+    </Card>
+
+    <Card>
+      <CheckCircle2 className="green-icon" />
+      <h3>Priority Shortlist</h3>
+      <p>
+        A focused list of sign / monitor / drop decisions designed to reduce recruitment noise.
+      </p>
+    </Card>
+  </div>
+
+  <div className="proof-table">
+    <div className="proof-row proof-head">
+      <span>Profile</span>
+      <span>Role</span>
+      <span>Market</span>
+      <span>Decision</span>
+    </div>
+
+    <div className="proof-row">
+      <span>Hidden Winger Profile</span>
+      <span>RW / LW</span>
+      <span>Belgium / Netherlands</span>
+      <span>Sign / Monitor</span>
+    </div>
+
+    <div className="proof-row">
+      <span>Undervalued Midfielder</span>
+      <span>CM / AM</span>
+      <span>Scandinavia</span>
+      <span>Monitor</span>
+    </div>
+
+    <div className="proof-row">
+      <span>Breakout Striker Type</span>
+      <span>ST</span>
+      <span>Balkan region</span>
+      <span>Priority Watch</span>
+    </div>
+  </div>
+
+  <p className="micro">
+    Sample data is anonymized. Real reports include player identity, club, contract context and video notes.
+  </p>
+</section>
             <h2>A real scout report experience, built for decision makers.</h2>
             <p className="muted">
               Each delivery includes a structured database, individual player reports, market notes and a final priority ranking.
