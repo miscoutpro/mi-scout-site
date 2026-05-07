@@ -229,7 +229,12 @@ function App() {
       </p>
     </Card>
   </div>
-
+  <div className="excel-preview">
+  <img
+    src="/excel-preview.png"
+    alt="MI Scout Excel Database Preview"
+  />
+</div>
   <div className="proof-table">
     <div className="proof-row proof-head">
       <span>Profile</span>
