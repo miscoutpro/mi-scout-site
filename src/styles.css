@@ -324,3 +324,22 @@
   width: 100%;
   display: block;
 }
+.pdf-preview-image {
+  margin-top: 42px;
+  margin-bottom: 42px;
+
+  border-radius: 28px;
+  overflow: hidden;
+
+  border: 1px solid rgba(212,166,80,0.18);
+
+  box-shadow:
+    0 0 50px rgba(212,166,80,0.14);
+
+  background: rgba(255,255,255,0.03);
+}
+
+.pdf-preview-image img {
+  width: 100%;
+  display: block;
+}
