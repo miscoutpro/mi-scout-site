@@ -345,28 +345,7 @@ function App() {
             </div>
           </Card>
         </div>
-          <div className="grid3">
-            {playerCards.map(player => (
-              <Card key={player.name}>
-                <div className="player-head">
-                  <div>
-                    <span>{player.tag}</span>
-                    <h4>{player.name}</h4>
-                  </div>
-                  <div className="mini-score"><Star size={16} />{player.score}</div>
-                </div>
 
-                <div className="player-info">
-                  <p><Activity size={16} />{player.role}</p>
-                  <p><Calendar size={16} />Age {player.age}</p>
-                  <p><MapPin size={16} />{player.market}</p>
-                </div>
-
-                <p className="green-box">{player.upside}</p>
-              </Card>
-            ))}
-          </div>
-        </div>
       </section>
 
       <section className="section alt">
