@@ -229,6 +229,12 @@ function App() {
       </p>
     </Card>
   </div>
+  <div className="pdf-preview-image">
+  <img
+    src="/pdf-preview.png"
+    alt="MI Scout PDF Scout Report Preview"
+  />
+</div>
   <div className="excel-preview">
   <img
     src="/excel-preview.png"
