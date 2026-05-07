@@ -235,6 +235,12 @@ function App() {
     alt="MI Scout PDF Scout Report Preview"
   />
 </div>
+  <div className="dashboard-preview">
+  <img
+    src="/scout-dashboard-preview.png"
+    alt="MI Scout Dashboard Preview"
+  />
+</div>
   <div className="excel-preview">
   <img
     src="/excel-preview.png"
