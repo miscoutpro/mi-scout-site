@@ -345,13 +345,6 @@ function App() {
             </div>
           </Card>
         </div>
-
-        <div className="player-section">
-          <div className="section-head small">
-            <span>Player Cards</span>
-            <h3>Recruitment shortlist carousel</h3>
-          </div>
-
           <div className="grid3">
             {playerCards.map(player => (
               <Card key={player.name}>
