@@ -241,6 +241,12 @@ function App() {
     alt="MI Scout Dashboard Preview"
   />
 </div>
+  <div className="player-cards-preview">
+  <img
+    src="/player-cards-preview.png"
+    alt="MI Scout Player Cards Preview"
+  />
+</div>
   <div className="excel-preview">
   <img
     src="/excel-preview.png"
