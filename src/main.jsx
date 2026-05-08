@@ -279,6 +279,7 @@ function App() {
     Examples are anonymized. Full intelligence is shared only through club-specific reports.
   </p>
 </section>
+      </section>
             <h2>A real scout report experience, built for decision makers.</h2>
             <p className="muted">
               Each delivery includes a structured database, individual player reports, market notes and a final priority ranking.
