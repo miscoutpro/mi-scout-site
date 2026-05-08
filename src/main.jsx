@@ -260,6 +260,7 @@ function App() {
       <p>Balkans</p>
       <p>Belgium</p>
       <p>France Lower Tiers</p>
+      <p>Ghana</p>
       <p>Netherlands</p>
       <p>Portugal</p>
       <p>Scandinavia</p>
