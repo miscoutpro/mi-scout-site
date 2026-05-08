@@ -51,7 +51,7 @@ const packages = [
   { name: 'Elite Monthly Intelligence', price: '€1,499', period: 'per month', note: 'Recommended for clubs. Designed to replace internal scouting time and reduce recruitment noise.',
   roi: 'One successful transfer insight can cover the entire cost.',
   comparison: 'Lower than the cost of a single scouting trip.', featured: true, features: ['100-player hidden pool', '20 full scout reports', 'Risk & upside analysis', 'Transfer priority ranking', 'Executive presentation design', 'Monthly strategy call'] },
-  { name: 'Custom Recruitment Mission', price: 'From €2,500', period: 'project-based', note: 'For specific club needs.', features: ['Specific position search', 'Country / league focus', 'Budget filter', 'Final transfer shortlist', 'Club-ready presentation', 'Confidential project delivery'] },
+  { name: 'Private Recruitment Mandate', price: 'Starting at €2,500', period: 'project-based', limited: 'Limited availability', note: 'Private intelligence for targeted recruitment operations.', features: ['Specific position search', 'Country / league focus', 'Budget filter', 'Final transfer shortlist', 'Club-ready presentation', 'Confidential project delivery'] },
 ]
 
 const process = [
@@ -493,6 +493,11 @@ function App() {
   )}
               <div className="pkg-head">
                 <h3>{pkg.name}</h3>
+                {pkg.limited && (
+  <div className="limited-badge">
+    {pkg.limited}
+  </div>
+)}
                 {pkg.featured ? <Euro /> : <Lock />}
               </div>
 
@@ -508,7 +513,7 @@ function App() {
               </div>
               <div className="actions" style={{ marginTop: '20px' }}>
   <a href="#contact" className="btn btn-solid">
-    {pkg.featured ? 'Start Monthly Intelligence' : 'Request This Package'}
+    {pkg.featured ? 'Start Monthly Intelligence' : 'Request Private Consultation'}
   </a>
 </div>
             </Card>
