@@ -285,6 +285,45 @@ function App() {
     </div>
   </div>
 </section>
+            <section id="intelligence-feed" className="section container">
+  <div className="section-head">
+    <span>Confidential Intelligence Feed</span>
+    <h2>Signals currently monitored by MI Scout</h2>
+    <p>
+      A private-style feed showing the type of recruitment signals tracked before players become obvious market targets.
+    </p>
+  </div>
+
+  <div className="feed-list">
+    {[
+      {
+        tag: 'Market Signal',
+        title: 'Young winger gaining traction in Belgium / Netherlands corridor',
+        detail: 'High 1v1 output, increasing minutes and early resale indicators.'
+      },
+      {
+        tag: 'Role Fit',
+        title: 'Scandinavian midfielder profile matching possession-based systems',
+        detail: 'Progressive passing, press resistance and low-cost acquisition window.'
+      },
+      {
+        tag: 'Timing Alert',
+        title: 'France lower-tier striker entering breakout visibility phase',
+        detail: 'Performance trend suggests monitoring before price movement.'
+      }
+    ].map(item => (
+      <div className="feed-item" key={item.title}>
+        <span>{item.tag}</span>
+        <h3>{item.title}</h3>
+        <p>{item.detail}</p>
+      </div>
+    ))}
+  </div>
+
+  <p className="micro">
+    Feed examples are anonymized. Full intelligence is shared only through club-specific reports.
+  </p>
+</section>
             <h2>A real scout report experience, built for decision makers.</h2>
             <p className="muted">
               Each delivery includes a structured database, individual player reports, market notes and a final priority ranking.
