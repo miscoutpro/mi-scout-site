@@ -257,12 +257,13 @@ function App() {
     <span>CURRENTLY TRACKING</span>
 
     <div className="tracking-items">
-      <p>Belgium</p>
-      <p>Netherlands</p>
-      <p>Scandinavia</p>
       <p>Balkans</p>
+      <p>Belgium</p>
       <p>France Lower Tiers</p>
+      <p>Netherlands</p>
       <p>Portugal</p>
+      <p>Scandinavia</p>
+      <p>Türkiye</p>
     </div>
   </div>
 
