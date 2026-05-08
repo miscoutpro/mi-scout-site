@@ -192,7 +192,7 @@ function App() {
       </section>
 
       <section id="sample" className="section container">
-        <div className="single-preview-layout">
+        <div className="two-col">
           <div>
             <span className="eyebrow">Sample Output</span>
             <section id="proof" className="section container">
@@ -326,6 +326,32 @@ function App() {
               </a>
             </div>
           </div>
+
+          <Card>
+            <div className="preview-head">
+              <div>
+                <p>PDF Preview</p>
+                <h3>Player Report Page</h3>
+              </div>
+              <FileText className="green-icon" />
+            </div>
+
+            <div className="pdf-preview">
+              <div className="pdf-top">
+                <div>
+                  <p>CONFIDENTIAL PROFILE</p>
+                  <h4>Hidden Winger Profile</h4>
+                  <span>RW / LW · 19 · Europe</span>
+                </div>
+                <div className="score">MI Score<br /><b>8.4</b></div>
+              </div>
+
+              {['Role Fit: High', 'Market Risk: Medium', 'Transfer Priority: Tier 1', 'Upside: High resale potential'].map(x => (
+                <div className="metric" key={x}>{x}</div>
+              ))}
+            </div>
+          </Card>
+        </div>
 
       </section>
 
