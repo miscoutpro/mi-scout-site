@@ -229,6 +229,14 @@ function App() {
       </p>
     </Card>
   </div>
+  <div className="proof-table">
+    <div className="proof-row proof-head">
+      <span>Profile</span>
+      <span>Role</span>
+      <span>Market</span>
+      <span>Decision</span>
+    </div>
+
     <div className="proof-row">
       <span>Hidden Winger Profile</span>
       <span>RW / LW</span>
@@ -428,13 +436,6 @@ function App() {
     alt="MI Scout Excel Database Preview"
   />
 </div>
-    <div className="proof-table">
-    <div className="proof-row proof-head">
-      <span>Profile</span>
-      <span>Role</span>
-      <span>Market</span>
-      <span>Decision</span>
-    </div>
         <p className="micro">Based on real scouting workflow simulations and market analysis.</p>
         <div className="actions" style={{ marginTop: '24px' }}>
   <a href="#contact" className="btn btn-solid">
