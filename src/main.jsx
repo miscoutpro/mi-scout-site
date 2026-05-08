@@ -195,6 +195,7 @@ function App() {
           <div>
             <span className="eyebrow">Sample Output</span>
             <section id="proof" className="section container">
+              </section>
   <div className="section-head">
     <span>Real Intelligence Preview</span>
     <h2>What clubs receive from MI Scout</h2>
