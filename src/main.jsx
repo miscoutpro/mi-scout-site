@@ -190,10 +190,10 @@ function App() {
           </div>
         </div>
       </section>
-
       <section id="sample" className="section container">
         <div className="single-preview-layout">
           <div>
+            </section>
             <span className="eyebrow">Sample Output</span>
             <section id="proof" className="section container">
   <div className="section-head">
