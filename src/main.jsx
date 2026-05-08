@@ -498,7 +498,11 @@ function App() {
     {pkg.limited}
   </div>
 )}
-                {pkg.featured ? <Euro /> : <Lock />}
+                {pkg.featured ? (
+  <Crown />
+) : pkg.name === 'Private Recruitment Mandate' ? (
+  <Lock />
+) : null}
               </div>
 
               <h4>{pkg.price}</h4>
