@@ -279,41 +279,6 @@ function App() {
     Examples are anonymized. Full intelligence is shared only through club-specific reports.
   </p>
 </section>
-      </section>
-            <h2>A real scout report experience, built for decision makers.</h2>
-            <p className="muted">
-              Each delivery includes a structured database, individual player reports, market notes and a final priority ranking.
-            </p>
-
-            <div className="check-list">
-              {proofPoints.map(p => (
-                <div key={p}><CheckCircle2 /> {p}</div>
-              ))}
-            </div>
-
-            <div className="actions">
-              <a
-                className="btn btn-solid"
-                href="/sample-report.pdf"
-                download
-                onClick={() => trackEvent("pdf_download")}
-              >
-                <Download size={18} /> See How It Works
-              </a>
-
-              <a
-                className="btn btn-outline"
-                href="/sample-report.pdf"
-                target="_blank"
-                rel="noreferrer"
-                onClick={() => trackEvent("pdf_preview_click")}
-              >
-                <ExternalLink size={18} /> View Report Preview
-              </a>
-            </div>
-          </div>
-
-      </section>
 
       <section className="section alt">
         <div className="container two-col">
