@@ -194,7 +194,6 @@ function App() {
         <div className="single-preview-layout">
           <div>
             <span className="eyebrow">Sample Output</span>
-            </section>
             <section id="proof" className="section container">
   <div className="section-head">
     <span>Real Intelligence Preview</span>
@@ -243,6 +242,8 @@ function App() {
   <p className="micro">
     Sample data is anonymized. Real reports include player identity, club, contract context and video notes.
   </p>
+  </div>
+  </div>
 </section>
             <section id="market-intelligence" className="section container">
   <div className="section-head">
