@@ -198,40 +198,30 @@ function App() {
       A practical preview of the deliverables: player database, individual scout reports and priority shortlist.
     </p>
   </div>
-<div className="preview-proof-bar">
-  <span>PDF Reports</span>
-  <span>Scout Dashboard</span>
-  <span>Player Cards</span>
-  <span>Excel Database</span>
-  <span>Priority Shortlist</span>
-</div>
-  <div className="proof-table">
-    <div className="proof-row proof-head">
-      <span>Profile</span>
-      <span>Role</span>
-      <span>Market</span>
-      <span>Decision</span>
+
+  <div className="preview-proof-bar">
+    <span>PDF Reports</span>
+    <span>Scout Dashboard</span>
+    <span>Player Cards</span>
+    <span>Excel Database</span>
+    <span>Priority Shortlist</span>
+  </div>
+
+  <div className="preview-grid">
+    <div className="pdf-preview-image">
+      <img src="/pdf-preview.png" alt="MI Scout PDF Scout Report Preview" />
     </div>
 
-    <div className="proof-row">
-      <span>Hidden Winger Profile</span>
-      <span>RW / LW</span>
-      <span>Belgium / Netherlands</span>
-      <span>Sign / Monitor</span>
+    <div className="dashboard-preview">
+      <img src="/scout-dashboard-preview.png" alt="MI Scout Dashboard Preview" />
     </div>
 
-    <div className="proof-row">
-      <span>Undervalued Midfielder</span>
-      <span>CM / AM</span>
-      <span>Scandinavia</span>
-      <span>Monitor</span>
+    <div className="player-cards-preview">
+      <img src="/player-cards-preview.png" alt="MI Scout Player Cards Preview" />
     </div>
 
-    <div className="proof-row">
-      <span>Breakout Striker Type</span>
-      <span>ST</span>
-      <span>Balkan region</span>
-      <span>Priority Watch</span>
+    <div className="excel-preview">
+      <img src="/excel-preview.png" alt="MI Scout Excel Database Preview" />
     </div>
   </div>
 
