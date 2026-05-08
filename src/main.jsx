@@ -244,16 +244,16 @@ function App() {
     Sample data is anonymized. Real reports include player identity, club, contract context and video notes.
   </p>
 </section>
-            <section id="watchlist" className="section container">
+            <section id="market-intelligence" className="section container">
   <div className="section-head">
-    <span>Live Market Watchlist</span>
-    <h2>Markets currently tracked by MI Scout</h2>
+    <span>Market Intelligence</span>
+    <h2>Markets and signals currently monitored by MI Scout</h2>
     <p>
-      Active monitoring of undervalued player markets across Europe, focused on timing, role fit and transfer opportunity.
+      A compact view of the player markets and recruitment signals tracked before profiles become obvious targets.
     </p>
   </div>
 
-  <div className="tracking-strip">
+  <div className="tracking-strip compact">
     <span>CURRENTLY TRACKING</span>
 
     <div className="tracking-items">
@@ -265,44 +265,31 @@ function App() {
       <p>Portugal</p>
     </div>
   </div>
-</section>
-            <section id="intelligence-feed" className="section container">
-  <div className="section-head">
-    <span>Confidential Intelligence Feed</span>
-    <h2>Signals currently monitored by MI Scout</h2>
-    <p>
-      A private-style feed showing the type of recruitment signals tracked before players become obvious market targets.
-    </p>
-  </div>
 
-  <div className="feed-list">
+  <div className="compact-feed">
     {[
       {
         tag: 'Market Signal',
-        title: 'Young winger gaining traction in Belgium / Netherlands corridor',
-        detail: 'High 1v1 output, increasing minutes and early resale indicators.'
+        title: 'Young winger gaining traction in Belgium / Netherlands corridor'
       },
       {
         tag: 'Role Fit',
-        title: 'Scandinavian midfielder profile matching possession-based systems',
-        detail: 'Progressive passing, press resistance and low-cost acquisition window.'
+        title: 'Scandinavian midfielder profile matching possession-based systems'
       },
       {
         tag: 'Timing Alert',
-        title: 'France lower-tier striker entering breakout visibility phase',
-        detail: 'Performance trend suggests monitoring before price movement.'
+        title: 'France lower-tier striker entering breakout visibility phase'
       }
     ].map(item => (
-      <div className="feed-item" key={item.title}>
+      <div className="compact-feed-item" key={item.title}>
         <span>{item.tag}</span>
-        <h3>{item.title}</h3>
-        <p>{item.detail}</p>
+        <p>{item.title}</p>
       </div>
     ))}
   </div>
 
   <p className="micro">
-    Feed examples are anonymized. Full intelligence is shared only through club-specific reports.
+    Examples are anonymized. Full intelligence is shared only through club-specific reports.
   </p>
 </section>
             <h2>A real scout report experience, built for decision makers.</h2>
