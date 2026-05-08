@@ -513,8 +513,12 @@ function App() {
               </div>
               <div className="actions" style={{ marginTop: '20px' }}>
   <a href="#contact" className="btn btn-solid">
-    {pkg.featured ? 'Start Monthly Intelligence' : 'Request Private Consultation'}
-  </a>
+  {pkg.featured
+    ? 'Start Monthly Intelligence'
+    : pkg.name === 'Private Recruitment Mandate'
+      ? 'Request Private Consultation'
+      : 'Request This Package'}
+</a>
 </div>
             </Card>
           ))}
