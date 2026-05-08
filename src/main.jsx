@@ -203,32 +203,13 @@ function App() {
       A practical preview of the deliverables: player database, individual scout reports and priority shortlist.
     </p>
   </div>
-
-  <div className="grid3">
-    <Card>
-      <FileText className="green-icon" />
-      <h3>PDF Scout Report</h3>
-      <p>
-        Executive-level player report with strengths, risks, tactical fit, market timing and final recommendation.
-      </p>
-    </Card>
-
-    <Card>
-      <BarChart3 className="green-icon" />
-      <h3>Excel Player Database</h3>
-      <p>
-        Structured database including age, position, league, market value, role fit, upside and priority tier.
-      </p>
-    </Card>
-
-    <Card>
-      <CheckCircle2 className="green-icon" />
-      <h3>Priority Shortlist</h3>
-      <p>
-        A focused list of sign / monitor / drop decisions designed to reduce recruitment noise.
-      </p>
-    </Card>
-  </div>
+<div className="preview-proof-bar">
+  <span>PDF Reports</span>
+  <span>Scout Dashboard</span>
+  <span>Player Cards</span>
+  <span>Excel Database</span>
+  <span>Priority Shortlist</span>
+</div>
   <div className="proof-table">
     <div className="proof-row proof-head">
       <span>Profile</span>
