@@ -229,38 +229,6 @@ function App() {
       </p>
     </Card>
   </div>
-  <div className="pdf-preview-image">
-  <img
-    src="/pdf-preview.png"
-    alt="MI Scout PDF Scout Report Preview"
-  />
-</div>
-  <div className="dashboard-preview">
-  <img
-    src="/scout-dashboard-preview.png"
-    alt="MI Scout Dashboard Preview"
-  />
-</div>
-  <div className="player-cards-preview">
-  <img
-    src="/player-cards-preview.png"
-    alt="MI Scout Player Cards Preview"
-  />
-</div>
-  <div className="excel-preview">
-  <img
-    src="/excel-preview.png"
-    alt="MI Scout Excel Database Preview"
-  />
-</div>
-  <div className="proof-table">
-    <div className="proof-row proof-head">
-      <span>Profile</span>
-      <span>Role</span>
-      <span>Market</span>
-      <span>Decision</span>
-    </div>
-
     <div className="proof-row">
       <span>Hidden Winger Profile</span>
       <span>RW / LW</span>
@@ -435,7 +403,38 @@ function App() {
           <Card><p>Output</p><h3>5 Targets</h3><span>Ready for recruitment action</span></Card>
           <Card><p>Impact</p><h3>Faster Decisions</h3><span>Less scouting noise, more clarity</span></Card>
         </div>
-
+        <div className="preview-grid">
+<div className="pdf-preview-image">
+  <img
+    src="/pdf-preview.png"
+    alt="MI Scout PDF Scout Report Preview"
+  />
+</div>
+  <div className="dashboard-preview">
+  <img
+    src="/scout-dashboard-preview.png"
+    alt="MI Scout Dashboard Preview"
+  />
+</div>
+  <div className="player-cards-preview">
+  <img
+    src="/player-cards-preview.png"
+    alt="MI Scout Player Cards Preview"
+  />
+</div>
+  <div className="excel-preview">
+  <img
+    src="/excel-preview.png"
+    alt="MI Scout Excel Database Preview"
+  />
+</div>
+    <div className="proof-table">
+    <div className="proof-row proof-head">
+      <span>Profile</span>
+      <span>Role</span>
+      <span>Market</span>
+      <span>Decision</span>
+    </div>
         <p className="micro">Based on real scouting workflow simulations and market analysis.</p>
         <div className="actions" style={{ marginTop: '24px' }}>
   <a href="#contact" className="btn btn-solid">
