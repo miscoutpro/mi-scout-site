@@ -193,8 +193,8 @@ function App() {
       <section id="sample" className="section container">
         <div className="single-preview-layout">
           <div>
-            </section>
             <span className="eyebrow">Sample Output</span>
+            </section>
             <section id="proof" className="section container">
   <div className="section-head">
     <span>Real Intelligence Preview</span>
