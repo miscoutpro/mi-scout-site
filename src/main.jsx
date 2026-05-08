@@ -436,6 +436,7 @@ function App() {
     alt="MI Scout Excel Database Preview"
   />
 </div>
+</div>
         <p className="micro">Based on real scouting workflow simulations and market analysis.</p>
         <div className="actions" style={{ marginTop: '24px' }}>
   <a href="#contact" className="btn btn-solid">
