@@ -263,6 +263,28 @@ function App() {
     Sample data is anonymized. Real reports include player identity, club, contract context and video notes.
   </p>
 </section>
+            <section id="watchlist" className="section container">
+  <div className="section-head">
+    <span>Live Market Watchlist</span>
+    <h2>Markets currently tracked by MI Scout</h2>
+    <p>
+      Active monitoring of undervalued player markets across Europe, focused on timing, role fit and transfer opportunity.
+    </p>
+  </div>
+
+  <div className="tracking-strip">
+    <span>CURRENTLY TRACKING</span>
+
+    <div className="tracking-items">
+      <p>Belgium</p>
+      <p>Netherlands</p>
+      <p>Scandinavia</p>
+      <p>Balkans</p>
+      <p>France Lower Tiers</p>
+      <p>Portugal</p>
+    </div>
+  </div>
+</section>
             <h2>A real scout report experience, built for decision makers.</h2>
             <p className="muted">
               Each delivery includes a structured database, individual player reports, market notes and a final priority ranking.
