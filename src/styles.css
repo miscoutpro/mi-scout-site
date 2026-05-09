@@ -559,3 +559,14 @@
 .single-preview-layout {
   max-width: 760px;
 }
+.site-footer {
+  padding: 40px 20px 60px;
+
+  text-align: center;
+
+  color: rgba(255,255,255,0.38);
+
+  font-size: 12px;
+
+  letter-spacing: 0.6px;
+}
