@@ -495,6 +495,9 @@ function App() {
           </Card>
         </div>
       </section>
+      <footer className="site-footer">
+  © 2026 MI Scout — Confidential recruitment intelligence for modern football clubs.
+</footer>
     </main>
   )
 }
