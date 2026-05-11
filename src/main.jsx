@@ -120,9 +120,6 @@ function App() {
                 </a>
               </div>
 
-              <div className="tags">
-                <span>PDF Reports</span><span>Excel Database</span><span>Africa and Europe Focus</span><span>Hidden Talents</span>
-              </div>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.65, delay: 0.1 }}>
