@@ -120,7 +120,7 @@ function App() {
               </div>
 
               <div className="tags">
-                <span>PDF Reports</span><span>Excel Database</span><span>Europe Focus</span><span>Hidden Talents</span>
+                <span>PDF Reports</span><span>Excel Database</span><span>Africa and Europe Focus</span><span>Hidden Talents</span>
               </div>
             </motion.div>
 
@@ -243,10 +243,10 @@ function App() {
     <span>CURRENTLY TRACKING</span>
 
     <div className="tracking-items">
+      <p>Africa</p>
       <p>Balkans</p>
       <p>Belgium</p>
       <p>France</p>
-      <p>Ghana</p>
       <p>Netherlands</p>
       <p>Portugal</p>
       <p>Scandinavia</p>
@@ -324,7 +324,7 @@ function App() {
 
           <div className="authority-boxes">
             <Card><p>Positioning</p><h3>Not another scouting list.</h3><span>A decision-making tool for recruitment departments.</span></Card>
-            <Card><p>Focus</p><h3>Hidden markets only</h3><span>Belgium, Netherlands, France lower tiers, Scandinavia, Balkans.</span></Card>
+            <Card><p>Focus</p><h3>Hidden markets only</h3><span>Africa, Balkans, Belgium, France, Netherlands, Portugal, Scandinavia, Türkiye.</span></Card>
             <Card><p>Outcome</p><h3>Actionable shortlist</h3><span>Every report leads to a clear next recruitment step.</span></Card>
           </div>
         </div>
