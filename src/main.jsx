@@ -502,6 +502,12 @@ function App() {
       <footer className="site-footer">
   © 2026 MI Scout — Confidential recruitment intelligence for modern football clubs.
 </footer>
+      <button
+  className="back-to-top"
+  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+>
+  ↑
+</button>
     </main>
   )
 }
