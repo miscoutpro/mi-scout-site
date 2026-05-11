@@ -492,7 +492,7 @@ function App() {
                 Request Intelligence <ArrowRight size={18} />
               </button>
               <p className="secure-payment-note">
-  Secure payments handled after consultation via invoice or bank transfer.
+  Secure invoice-based payments for professional club collaborations.
 </p>
             </form>
           </Card>
