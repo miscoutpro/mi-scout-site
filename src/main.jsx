@@ -82,7 +82,7 @@ function App() {
           <nav className="nav">
             <div className="brand">
               <img src="/mi-logo.png" alt="MI Scout" />
-              <span>ELITE RECRUITMENT INTELLIGENCE</span>
+              <span>FOOTBALL RECRUITMENT INTELLIGENCE</span>
             </div>
 
             <div className="nav-links">
