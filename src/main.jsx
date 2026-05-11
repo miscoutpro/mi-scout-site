@@ -298,7 +298,72 @@ function App() {
           </div>
         </div>
       </section>
+<section id="insights" className="section container">
 
+  <div className="section-head">
+    <span>Intelligence Notes</span>
+
+    <h2>Latest recruitment insights</h2>
+
+    <p>
+      Short intelligence snapshots focused on undervalued markets,
+      breakout profiles and recruitment timing opportunities.
+    </p>
+  </div>
+
+  <div className="insights-grid">
+
+    <article className="insight-card">
+      <div className="insight-meta">
+        <span>Belgium</span>
+        <span>LIVE</span>
+      </div>
+
+      <h3>
+        5 undervalued wingers before the 2027 market spike
+      </h3>
+
+      <p>
+        Wide profiles currently gaining traction across Belgium and
+        Netherlands recruitment pipelines.
+      </p>
+    </article>
+
+    <article className="insight-card">
+      <div className="insight-meta">
+        <span>Scandinavia</span>
+        <span>UPDATED</span>
+      </div>
+
+      <h3>
+        Why Scandinavian midfielders fit possession-heavy systems
+      </h3>
+
+      <p>
+        Tactical and physical profiles increasingly targeted by clubs
+        seeking controlled build-up structures.
+      </p>
+    </article>
+
+    <article className="insight-card">
+      <div className="insight-meta">
+        <span>France</span>
+        <span>NEW</span>
+      </div>
+
+      <h3>
+        France lower-tier striker market entering visibility phase
+      </h3>
+
+      <p>
+        Several forwards are approaching the final undervalued window
+        before broader market exposure.
+      </p>
+    </article>
+
+  </div>
+
+</section>
       <section id="authority" className="section container">
         <div className="two-col">
           <div>
