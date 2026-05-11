@@ -130,7 +130,7 @@ function App() {
                   <div className="report-head">
                     <div>
                       <p>Monthly Intelligence</p>
-                      <h2>Elite Club Report</h2>
+                      <h2>Elite Club Intelligence</h2>
                     </div>
                     <Crown className="gold-icon" />
                   </div>
@@ -150,7 +150,7 @@ function App() {
                   </div>
 
                   <p className="green-box">
-                    Built for sporting directors, recruitment departments and ambitious clubs looking for early-market advantage.
+                    Built for clubs seeking early-market recruitment advantage.
                   </p>
                 </div>
               </Card>
