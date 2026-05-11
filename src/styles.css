@@ -574,6 +574,7 @@
   margin-top: 14px;
   text-align: center;
   color: rgba(255,255,255,0.52);
-  font-size: 12px;
+  font-size: 11px;
+  letter-spacing: 0.3px;
   line-height: 1.6;
 }
