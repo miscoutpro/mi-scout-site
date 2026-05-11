@@ -19,7 +19,7 @@ const Card = ({ children, className = '' }) => (
 )
 
 const services = [
-  { icon: Search, title: 'Hidden Talent Discovery', text: 'Lower divisions, youth competitions, B teams and overlooked European markets scanned for undervalued players.' },
+  { icon: Search, title: 'Hidden Talent Discovery', text: 'Lower divisions, youth competitions, B teams and overlooked European and African markets scanned for undervalued players.' },
   { icon: BarChart3, title: 'Recruitment Intelligence', text: 'Player fit, market value, contract situation, upside, tactical role and transfer feasibility combined into one decision view.' },
   { icon: FileText, title: 'Board-Ready Reports', text: 'Clean PDF reports and structured Excel databases designed for sporting directors, scouts and recruitment departments.' },
 ]
@@ -99,7 +99,7 @@ function App() {
               <div className="pill"><ShieldCheck size={16} /> For clubs seeking recruitment advantage</div>
               <h1>Recruit smarter before the market catches up</h1>
               <p className="hero-text">
-                MI Scout helps clubs identify undervalued players across Europe before they become expensive, competitive or out of reach.
+                MI Scout helps clubs identify undervalued players across Europe and Africa before they become expensive, competitive or out of reach.
                 Built for clubs seeking early-market advantage.
                 The best transfers are made months before they become obvious.
               </p>
@@ -311,7 +311,7 @@ function App() {
             <div className="check-list">
               {[
                 'Independent solo scout model → fast execution & no internal noise',
-                'Focused only on undervalued European markets',
+                'Focused only on undervalued markets',
                 'Reports designed for sporting directors, not social media',
                 'Clear shortlist instead of long, unusable player lists',
                 'Transfer-oriented thinking (fit, price, timing)',
