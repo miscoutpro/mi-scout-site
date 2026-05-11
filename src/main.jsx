@@ -333,7 +333,7 @@ function App() {
         Wide profiles currently gaining traction across Belgium and
         Netherlands recruitment pipelines.
       </p>
-    </article>
+    </a>
 
     <article className="insight-card">
       <div className="insight-meta">
