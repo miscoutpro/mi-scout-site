@@ -194,7 +194,7 @@ function App() {
   <div className="section-head">
     <span>Real Intelligence Preview</span>
     <h2 className="preview-headline">
-      Inside the MI Scout Intelligence System</h2>
+      What clubs actually receive</h2>
     <p>
       A practical preview of the deliverables: player database, individual scout reports and priority shortlist.
     </p>
