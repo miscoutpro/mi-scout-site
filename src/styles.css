@@ -703,3 +703,24 @@
 .insight-card:hover .insight-link {
   transform: translateX(4px);
 }
+.contact-note {
+  margin-bottom: 24px;
+}
+
+.contact-note p {
+  color: #ffffff;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  margin-bottom: 6px;
+}
+
+.contact-note span {
+  color: #a8a8a8;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
