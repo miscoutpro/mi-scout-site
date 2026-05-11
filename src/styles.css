@@ -570,14 +570,10 @@
 
   letter-spacing: 0.6px;
 }
-.payment-note {
-  margin-top: 28px;
-
+.secure-payment-note {
+  margin-top: 14px;
   text-align: center;
-
-  color: rgba(255,255,255,0.48);
-
-  font-size: 13px;
-
-  line-height: 1.7;
+  color: rgba(255,255,255,0.52);
+  font-size: 12px;
+  line-height: 1.6;
 }
