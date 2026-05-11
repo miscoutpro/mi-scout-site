@@ -494,6 +494,9 @@ function App() {
             </form>
           </Card>
         </div>
+        <p className="payment-note">
+  Payments are handled securely after consultation via invoice, bank transfer or payment link.
+</p>
       </section>
       <footer className="site-footer">
   © 2026 MI Scout — Confidential recruitment intelligence for modern football clubs.
