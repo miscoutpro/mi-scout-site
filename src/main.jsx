@@ -333,6 +333,9 @@ function App() {
         Wide profiles currently gaining traction across Belgium and
         Netherlands recruitment pipelines.
       </p>
+      <div className="insight-link">
+  View Intelligence Note →
+</div>
     </a>
 
     <article className="insight-card">
