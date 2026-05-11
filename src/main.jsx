@@ -491,12 +491,12 @@ function App() {
               <button type="submit" className="btn btn-solid">
                 Request Intelligence <ArrowRight size={18} />
               </button>
+              <p className="secure-payment-note">
+  Secure payments handled after consultation via invoice or bank transfer.
+</p>
             </form>
           </Card>
         </div>
-        <p className="payment-note">
-  Payments are handled securely after consultation via invoice, bank transfer or payment link.
-</p>
       </section>
       <footer className="site-footer">
   © 2026 MI Scout — Confidential recruitment intelligence for modern football clubs.
