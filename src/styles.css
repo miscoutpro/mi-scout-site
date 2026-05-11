@@ -24,10 +24,10 @@
   background: radial-gradient(circle at center, rgba(212,166,80,0.06), transparent 60%);
   pointer-events: none;
 }.watermark{position: absolute;
-  right: -80px;
+  right: -120px;
   top: 80px;
-  width: 520px;
-  opacity: 0.04;
+  width: 460px;
+  opacity: 0.05;
   filter: blur(0.5px) brightness(1.2);
   pointer-events: none}.nav{position:relative;display:flex;justify-content:space-between;align-items:center;padding:34px 0;border-bottom: 1px solid rgba(212, 166, 80, 0.08);}.brand{display:flex;align-items:center;gap:18px}.brand img{height:68px;width:auto;filter: drop-shadow(0 0 18px rgba(212, 166, 80, 0.35));}.brand span {
   letter-spacing: 3px;
