@@ -552,6 +552,15 @@ function App() {
               className="form"
               onSubmit={() => trackEvent("lead_form_submit")}
             >
+              <div className="contact-note">
+  <p>
+    Private recruitment requests are reviewed manually.
+  </p>
+
+  <span>
+    Limited number of club partnerships accepted monthly.
+  </span>
+</div>
               <input name="name" placeholder="Name" required />
               <input name="club" placeholder="Club / Company" />
               <input name="email" type="email" placeholder="Email" required />
