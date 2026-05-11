@@ -314,7 +314,12 @@ function App() {
 
   <div className="insights-grid">
 
-    <article className="insight-card">
+    <a
+  className="insight-card"
+  href="/intelligence-note.pdf"
+  target="_blank"
+  rel="noreferrer"
+>
       <div className="insight-meta">
         <span>Belgium</span>
         <span>LIVE</span>
