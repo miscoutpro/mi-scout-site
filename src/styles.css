@@ -578,3 +578,6 @@
   letter-spacing: 0.3px;
   line-height: 1.6;
 }
+.preview-headline {
+  font-size: clamp(42px, 5vw, 68px);
+}
