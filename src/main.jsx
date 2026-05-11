@@ -87,7 +87,7 @@ function App() {
 
             <div className="nav-links">
               <a href="#solution">Solution</a>
-              <a href="#sample">Sample</a>
+              <a href="#preview">Sample</a>
               <a href="#authority">Authority</a>
               <a href="#packages">Pricing</a>
               <a href="#contact">Contact</a>
@@ -193,7 +193,7 @@ function App() {
             <section id="proof" className="section container">
   <div className="section-head">
     <span>Real Intelligence Preview</span>
-    <h2>What clubs receive from MI Scout</h2>
+    <h2>Inside the MI Scout Intelligence System</h2>
     <p>
       A practical preview of the deliverables: player database, individual scout reports and priority shortlist.
     </p>
