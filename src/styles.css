@@ -724,3 +724,32 @@
 
   line-height: 1.6;
 }
+.hero-signals{
+  display:flex;
+
+  gap:12px;
+
+  flex-wrap:wrap;
+
+  margin:22px 0 26px;
+}
+
+.hero-signals span{
+  border:1px solid rgba(212,166,80,0.16);
+
+  background:rgba(212,166,80,0.05);
+
+  color:#d4a650;
+
+  padding:10px 14px;
+
+  border-radius:999px;
+
+  font-size:12px;
+
+  letter-spacing:.12em;
+
+  text-transform:uppercase;
+
+  font-weight:700;
+}
