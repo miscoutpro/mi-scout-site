@@ -383,7 +383,13 @@ function App() {
             <p className="muted">
               MI Scout is not content, media or fan-based analysis. It is a focused recruitment intelligence service built for real club decision making. Independent scouting model → no agency bias, no internal pressure.
             </p>
+<div className="founder-note">
+  <span>Independent football recruitment intelligence project</span>
 
+  <p>
+    Founded by Miraç İnan. Focused on undervalued European and African talent markets.
+  </p>
+</div>
             <div className="check-list">
               {[
                 'Independent solo scout model → fast execution & no internal noise',
