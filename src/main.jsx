@@ -584,8 +584,42 @@ function App() {
           </Card>
         </div>
       </section>
+      <section id="legal" className="legal-section">
+  <div id="privacy" className="legal-card">
+    <h3>Privacy Policy</h3>
+    <p>
+      MI Scout respects the privacy of clubs, recruitment departments, scouts and visitors using this website.
+      Information submitted through contact forms may be used to respond to inquiries, deliver recruitment intelligence services and improve website functionality.
+      MI Scout does not sell personal information to third parties.
+    </p>
+  </div>
+
+  <div id="terms" className="legal-card">
+    <h3>Terms of Service</h3>
+    <p>
+      MI Scout provides independent football recruitment intelligence, scouting analysis and market-focused reporting for informational and recruitment evaluation purposes.
+      MI Scout does not guarantee transfers, contract agreements, recruitment outcomes or sporting performance.
+    </p>
+  </div>
+
+  <div id="ip-notice" className="legal-card">
+    <h3>Intellectual Property Notice</h3>
+    <p>
+      © 2026 MI Scout. All scouting reports, recruitment intelligence notes, databases, visual layouts, branding elements and written analysis are protected.
+      Unauthorized reproduction, redistribution or commercial reuse is prohibited.
+    </p>
+  </div>
+</section>
       <footer className="site-footer">
-  © 2026 MI Scout — Confidential recruitment intelligence for modern football clubs.
+  <p>
+    © 2026 MI Scout — Confidential recruitment intelligence for modern football clubs.
+  </p>
+
+  <div className="legal-links">
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms of Service</a>
+    <a href="#ip-notice">Intellectual Property Notice</a>
+  </div>
 </footer>
       <button
   className="back-to-top"
