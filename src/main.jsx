@@ -581,7 +581,7 @@ function App() {
               <textarea name="message" placeholder="Tell us your recruitment need"></textarea>
 
               <button type="submit" className="btn btn-solid">
-                Request Intelligence <ArrowRight size={18} />
+                Request Recruitment Intelligence <ArrowRight size={18} />
               </button>
               <p className="secure-payment-note">
   Secure invoice-based payments for professional club collaborations.
